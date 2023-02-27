@@ -4,7 +4,9 @@ main {
 }
 
 body {
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(218, 102, 102);
+    overflow: hidden; /* no scroll bar*/
+    height: 100vh;
 }
 
 #navbar {
