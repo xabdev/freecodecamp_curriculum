@@ -1,35 +1,96 @@
 body {
-    background: rgb(38, 38, 38);
-    display: flex;
-    flex-direction: column;
-    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: #F7FFF7;
     font-family: sans-serif;
     font-size: 17px;
+    overflow: hidden;
 }
 
 header {
-
-
+    display: block;
     text-align: center;
-
-
+    justify-content: center;
+    position: fixed;
+    background: #343434;
+    width: 100%;
+    top: 0px;
 }
 
 a {
     font-family: sans-serif;
     color: white;
     text-decoration: none;
+    margin: 0px 10px;
+}
+
+a:hover {
+    color: pink;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: #343434;
+
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0px auto;
+    width: 70%;
+    text-align:left;
+}
+
+#section1 {
+    padding-top: 250px;
+    padding-bottom: 500px;
+}
+#section2 {
+    padding-top: 250px;
+    padding-bottom: 500px;
+}
+#section3 {
+    padding-top: 250px;
+    padding-bottom: 500px;
+}
+#section4 {
+    padding-top: 300px;
+    padding-bottom: 500px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.subtitle {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 100;
+}
+
+#bat-img {
+    padding-top: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+
+#news {
+    padding: 10px auto 20px;
 }
 
 
 
 
 
-
-
-
-
-
-
 @media only screen and (max-width: 420px) {}
-
